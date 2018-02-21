@@ -1,0 +1,29 @@
+{
+  "name": "hibp-checker",
+  "version": "1.0.0",
+  "description": "Anonymously check a given password against the haveibeenpwned.com database",
+  "main": "dist/index",
+  "typings": "dist/index",
+  "scripts": {
+    "prepublishOnly": "yarn compile",
+    "compile": "tsc -p ."
+  },
+  "keywords": [
+    "haveibeenpwned",
+    "hibp",
+    "have",
+    "i",
+    "been",
+    "pwned"
+  ],
+  "author": "Patt-tom McDonnell <contact@mcdonnell.pt>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^9.4.0",
+    "typescript": "^2.6.2"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ]
+}
