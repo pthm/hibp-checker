@@ -1,7 +1,7 @@
 # hibp-checker
 
 Anonymously query the haveibeenpwned.com API to fetch the number of times a 
-password has appeard in breached data sets using (K-anonymity)[https://en.wikipedia.org/wiki/K-anonymity]
+password has appeard in breached data sets using [K-anonymity](https://en.wikipedia.org/wiki/K-anonymity)
 
 ## Installation
 ```bash
