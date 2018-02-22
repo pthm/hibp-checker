@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Anonymously check a given password against the haveibeenpwned.com database",
   "main": "dist/index",
+  "bin": {
+    "hibp-checker": "dist/bin/hibp-checker.js"
+  },
   "typings": "dist/index",
   "scripts": {
     "prepublishOnly": "yarn compile",
@@ -28,6 +31,8 @@
   },
   "files": [
     "dist/index.js",
-    "dist/index.d.ts"
+    "dist/index.d.ts",
+    "dist/bin/hibp-checker.js",
+    "dist/bin/hibp-checker.d.ts",
   ]
 }
