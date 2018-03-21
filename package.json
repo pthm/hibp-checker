@@ -33,6 +33,6 @@
     "dist/index.js",
     "dist/index.d.ts",
     "dist/bin/hibp-checker.js",
-    "dist/bin/hibp-checker.d.ts",
+    "dist/bin/hibp-checker.d.ts"
   ]
 }
